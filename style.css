@@ -1,0 +1,14 @@
+/* 
+* {
+	font-family: Helvetica, sans-serif;
+	border: 1px rgba(0, 0, 0, 0.3);
+	border-style: groove;
+} */
+
+h1 {
+	text-align: center;
+}
+
+img {
+	border-radius: 35%;
+}
