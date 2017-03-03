@@ -1,9 +1,14 @@
-/* 
+/*
 * {
 	font-family: Helvetica, sans-serif;
 	border: 1px rgba(0, 0, 0, 0.3);
 	border-style: groove;
-} */
+}
+*/
+
+body {
+	background-image: url(https://ciudadanointeligente.org/assets/img/ciudadanoi.jpg);
+}
 
 h1 {
 	text-align: center;
@@ -11,4 +16,67 @@ h1 {
 
 img {
 	border-radius: 35%;
+}
+
+.contacto, td {
+  font-weight: 400;
+  padding: 25px;
+  text-align: center;
+  width: 100%;
+	background:rgba(0,0,0,0.5);
+  border-radius: 2px;
+  display: inline-block;
+  height: 25px;
+  margin: auto;
+  position: relative;
+  width: 190px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+th {
+	text-align: left;
+}
+
+.titulo {
+	text-shadow: 1px 1px grey;
+}
+
+.bajada_titulo {
+	text-align: center;
+}
+
+.titulo, .bajada_titulo, .objetivos, .proyectos {
+	color: White;
+	font-family: 'Amatic SC', cursive;
+}
+
+.bajada_titulo, .objetivos, .proyectos {
+	padding-left: 30px;
+}
+
+.imagen {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+/* unvisited link */
+a:link {
+	color: white;
+}
+
+/* visited link */
+a:visited {
+	color: orange;
+}
+
+/* mouse over link */
+a:hover {
+	color: hotpink;
+}
+
+/* selected link */
+a:active {
+	color: green;
 }
